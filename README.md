@@ -54,11 +54,4 @@ This project is part of the lab test for the COMP3123 - Full Stack Development c
 
  `https://github.com/Onigiri0998/101394258_COMP3123_labtest2.git` This `README.md` provides a comprehensive guide for users to understand what the app does, how to set it up, and how to contribute. It's always a good practice to provide as much detail as possible in the README to help users and contributors get started with your project.
 
-postman
-![Alt text](postman.png)
-app input
-![Alt text](App input.png)
-app output
-![Alt text](app output.png)
-
 
