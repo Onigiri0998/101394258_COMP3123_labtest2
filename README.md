@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Weather App - React Lab Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple React application that fetches and displays weather data from the OpenWeatherMap API.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The application allows users to search for weather information by city. It utilizes React features such as hooks for state and effect management, and axios for making API requests.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get this project running on your local machine for development and testing purposes, follow these steps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+You need to have Node.js and npm installed on your machine. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Check versions
+node -v
+npm -v
 
-### `npm run build`
+Installation
+Clone the repository to your local machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/Onigiri/0998_COMP3123_labtest2.git
+cd 101394258_COMP3123_labtest2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Running the Application
+To run the application in development mode:
 
-### `npm run eject`
+npm start
+Open http://localhost:3000 to view it in the browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Functionality
+Search: Users can search for weather data by city name.
+Weather Display: The application displays temperature, humidity, and general weather conditions.
+API Integration: The app uses the OpenWeatherMap API to fetch real-time weather data.
+Built With
+React - The web framework used.
+Axios - Promise based HTTP client for the browser and node.js.
+OpenWeatherMap API - Weather data API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Acknowledgments
+Thanks to OpenWeatherMap for providing the weather data API.
+This project is part of the lab test for the COMP3123 - Full Stack Development course.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ `https://github.com/Onigiri0998/101394258_COMP3123_labtest2.git` This `README.md` provides a comprehensive guide for users to understand what the app does, how to set it up, and how to contribute. It's always a good practice to provide as much detail as possible in the README to help users and contributors get started with your project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+postman
+![Alt text](postman.png)
+app input
+![Alt text](App input.png)
+app output
+![Alt text](app output.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
